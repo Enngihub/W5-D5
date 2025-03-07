@@ -31,6 +31,9 @@ nav {
   background-color: #fdc017;
   gap: 200px;
   padding: 20px;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
 }
 nav .our {
   display: flex;
@@ -81,5 +84,7 @@ ol li::marker {
 .commento {
   font-size: 30px;
 }
-.orario {color: rgba(154, 148, 148, 0.976);
-display: flex;}
+.orario {
+  color: rgba(154, 148, 148, 0.976);
+  display: flex;
+}
